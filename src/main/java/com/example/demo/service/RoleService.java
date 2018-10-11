@@ -1,0 +1,17 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.entities.Role;;
+
+public interface RoleService {
+	
+public List <Role> getAllRole ();
+	
+	public Role getRoleById (int id);
+	
+	public void saveOrUpdate (Role role);
+	
+	public void deleteRole(int id);
+
+}
